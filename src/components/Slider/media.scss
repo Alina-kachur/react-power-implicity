@@ -1,0 +1,16 @@
+@media (max-width: 620px) {
+  .slider {
+    grid-template-rows: 3fr 1fr;
+    .slider__container {
+      grid-template-rows: 3fr 1fr 1fr;
+      .slider__container--title {
+        font-size: 48px;
+        line-height: 55px;
+      }
+      .slider__container--subtitle {
+        font-size: 14px;
+        line-height: 25px;
+      }
+    }
+  }
+}
